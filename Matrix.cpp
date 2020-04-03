@@ -40,7 +40,6 @@ class SquareMatrix{
         }
     }
 
-    // Unimplemented;
     long long int calculateDeterminant(){
         isCalculatedDet = true;
         return cofactorExpansion(size,matrix);
